@@ -1,0 +1,85 @@
+:root {
+    --header-height: 77.4px;
+    --white-color: #fff;
+    --primary-color: #f3a46b;
+    --text-color: #727475;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+html {
+    /* HACK */
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Poppins', sans-serif; 
+    box-sizing: border-box;
+}
+.app {
+    overflow: hidden;
+}
+.bgr-1bbc9b {
+    background-color: #1bbc9b;
+}
+.cl-1bbc9b {
+    color: #1bbc9b !important;
+}
+.bgr-ff6868 {
+    background-color: #ff6868;
+}
+.bgr-14b9d5 {
+    background-color: #14b9d5;
+}
+.cl-14b9d5 {
+    color: #14b9d5 !important;
+}
+.bgr-f3a46b {
+    background-color: #f3a46b;
+}
+.bgr-c755da {
+    background-color: #c755da;;
+}
+.bgr-ffd205 {
+    background-color: #ffd205;
+}
+.bgr-f76570 {
+    background-color: #f76570 !important;
+}
+.bgr-ba71da {
+    background-color: #ba71da !important;
+}
+
+
+.mt-10 {
+    margin-top: 10px !important;
+}
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+.mt-20 {
+    margin-top: 20px !important;
+}
+.mb-20 {
+    margin-bottom: 20px !important;
+}
+.mt-25 {
+    margin-top: 25px !important;
+}
+.mb-25 {
+    margin-bottom: 25px !important;
+}
+.mt-80 {
+    margin-top: 80px !important;
+}
+.mb-80 {
+    margin-bottom: 80px !important;
+}
+.p-15 {
+    padding: 15px !important;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+} 
+

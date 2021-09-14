@@ -1,0 +1,126 @@
+@media (max-width: 1024px) {
+    .section__package {
+        padding: 0 15px !important;
+        
+    } 
+    .package__header {
+        margin-bottom: 20px;
+    }
+    .package__list {
+       flex: 0 0 100%;
+       max-width: 100%;
+       position: relative;
+      top: 0;
+       display: flex;
+       flex-direction: column;
+       flex-wrap: nowrap;
+       width: 100%;
+    }
+    .header__btn-list {
+        display: none;
+
+    } 
+    .package__item {
+        width: 100%;
+        height: 100%;
+    }
+    .package__header {
+        padding: 0 !important;
+    }
+    .package__intro-video{
+        
+    }
+    .sale__item-info {
+        flex-direction: column;
+    }
+    .footer__copyright {
+        flex-direction: column ;
+    }
+
+}
+@media (max-width: 1200px) {
+
+    .header {
+
+        margin: 20px 0;
+    }
+    .nav-bar {
+        flex-direction: column;
+    }
+    .header__btn-list {
+        /* overflow: hidden; */
+        display: block;
+        padding: 40px;
+        position: fixed;
+        width: 300px;
+        height: 100vh;
+        right: 0;
+        top: 0;
+        background-color: var(--primary-color);
+        margin-left: 60px;
+        overflow-y: auto;
+        z-index: 999;
+        transform: translateX(100%);
+        transition: transform ease 0.8s;
+    }
+    .header__btn-item {
+        padding-bottom: 20px;
+    }
+
+    .header__btn-link  {
+        background-color: transparent;
+        color: #fff;
+        font-size: 2.4rem;
+        line-height: 2.7rem;
+        text-align: left;
+        padding: 10px 0 !important;
+        text-transform: none;
+    }
+    .menu__icon {
+        display: block;
+    }
+    #menu__open:checked ~ .header__btn-list {
+        /* overflow-y: scroll; */
+        transform: translateX(0);
+    }
+    /* Tab */
+    .tab {
+        background-color: transparent;
+        display: block;
+        position: relative;
+        top: calc(100% + 30px);
+        margin: 0;
+        left: 0;
+        box-shadow: unset;
+    }
+    
+    .tab-item {
+        padding: 0 20px;
+    }
+    .tab-item::after {
+        display: none;
+    }
+    .tab-link {
+        color: #fff;
+        line-height: 2.7rem;
+        height: unset;
+        padding: 10px 0 !important;
+
+    }
+    .tab-link::after {
+        display: none;
+    }
+    .tab-item--has-sub i {
+        display: none;
+    }
+    .sub-tab {
+        background-color: transparent;
+        display: block;
+        position: relative;
+        top: calc(100% + 30px);
+        margin: 0;
+        left: 0;
+        box-shadow: unset;
+    }
+
+}
